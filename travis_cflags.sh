@@ -25,12 +25,9 @@ function contains() {
 }
 
 strictPHPVersions=()
-strictPHPVersions+=("5.3")
-strictPHPVersions+=("5.4")
-strictPHPVersions+=("5.5")
-strictPHPVersions+=("5.6")
-strictPHPVersions+=("7.0")
-strictPHPVersions+=("7.1.0alpha1")
+strictPHPVersions+=("7.1")
+strictPHPVersions+=("7.2")
+strictPHPVersions+=("7.3")
 
 echo "TRAVIS_PHP_VERSION is ${TRAVIS_PHP_VERSION}"
 
